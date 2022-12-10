@@ -15,7 +15,7 @@ int main(void)
 		putchar(hexa);
 		hexa++;
 	}
-	while (ch <= ch)
+	while (ch <= 'a')
 	{
 		putchar(ch);
 		ch--;;
