@@ -1,23 +1,33 @@
 #include <stdio.h>
+
 /**
- *
- * main - prints two digits numbers but there is
- *
- * Return: Always @(Success)
- *
- */
+* main - loop through variables a and b, printing digits
+*
+* Return: print to stdout all possible different combinations of twodigits
+**/
 int main(void)
 {
-	for(int a = '0'; a <= '9'; a++)
-	{
-		for (int b = '1'; b <= '9'; b++)
-		{
-			if (a != b)
-			{
-				putchar(a);
-				putchar(b);
-			}
-		}
-	}
-	return (0);
+int a = '0';
+int b;
+
+while (a <= '9')
+{
+b = a + 1;
+while (b <= '9')
+{
+putchar(a);
+putchar(b);
+if (a == '8' && b == '9')
+{
+putchar('\n');
 }
+else
+{
+putchar(',');
+putchar(' ');
+}
+b++;
+}
+a++;
+}
+r
