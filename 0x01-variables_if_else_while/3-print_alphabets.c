@@ -6,6 +6,7 @@
  * Returns: @(Success)
  *
  */
+
 int main(void)
 {
 	int ch = 'a';
