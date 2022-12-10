@@ -15,10 +15,10 @@ int main(void)
 		putchar(hexa);
 		hexa++;
 	}
-	while (ch <= 'a')
+	while (ch >= 'a')
 	{
 		putchar(ch);
-		ch--;;
+		ch--;
 	}
 	putchar('\n');
 	
