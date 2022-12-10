@@ -1,8 +1,9 @@
 #include <stdio.h>
+#include <stdlib.h>
 /**
  * main - prints decimal numbers 0 to 9
  *
- * Reutrn: Always @(Success)
+ * Return: Always @(Success)
  */
 int main(void)
 {
