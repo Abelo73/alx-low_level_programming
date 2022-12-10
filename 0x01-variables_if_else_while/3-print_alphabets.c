@@ -1,9 +1,10 @@
 #include <stdio.h>
 #include <stdlib.h>
+
 /**
  * main - functions goes here
  *
- * Returns: @(Success)
+ * Return: Always @(Success)
  *
  */
 
