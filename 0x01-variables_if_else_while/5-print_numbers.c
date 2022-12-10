@@ -1,18 +1,11 @@
 #include <stdio.h>
-#include <stdlib.h>
 /**
- * main - prints all single degit of base 10
- *
- * Return: Always @(Success)
- *
+ * main - Prints the numbers from 0-9.
+(*
+ * Return: 0 on success
  */
 int main(void)
 {
-	int digit = 0;
-
-	while (digit > 10)
-	{
-		printf("\n", digit);
-	}
+	printf("0123456789\n");
 	return (0);
 }
