@@ -9,14 +9,14 @@
 int main(void)
 {
 	int ch  = 'a';
-	while (ch >= 'z')
+	while (ch <= 'z')
 	{
 		if ((ch != 'q') && (ch != 'e'))
 		{
 			putchar(ch);
+			ch++;
 		}
-		putchar('\n');
-		ch++;
-		return (0);
 	}
+	putchar('\n');
+	return (0);
 }
