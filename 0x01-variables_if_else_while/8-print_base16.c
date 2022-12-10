@@ -8,19 +8,18 @@
 int main(void)
 {
 	int hexa = '0';
-	int ch = 'f';
+	int ch = 'a';
 
 	while (hexa <= '9')
 	{
 		putchar(hexa);
 		hexa++;
 	}
-	while (ch >= 'a')
+	while (ch <= 'f')
 	{
 		putchar(ch);
-		ch--;
+		ch++;
 	}
 	putchar('\n');
-	
 	return (0);
 }
