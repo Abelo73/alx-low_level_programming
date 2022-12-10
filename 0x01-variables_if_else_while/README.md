@@ -1,0 +1,1 @@
+This is programm prints if you enter a number greater than zero, it prints the number you entered is positvite, if you enter the number less than zero, then it prints the number you entered is negative and else it prints the number you entered is zero.
