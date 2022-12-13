@@ -1,13 +1,13 @@
 #include "main.h"
 
 /**
- * main - prints alphabets in small
+ * print_alphabet  - prints alphabets in small
  *
  * Return: Always 0.
  *
  */
 
-int print_alphabet(void)
+void print_alphabet(void)
 {
 	char ch = 'a';
 
