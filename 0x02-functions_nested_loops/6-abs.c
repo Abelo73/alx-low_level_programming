@@ -1,4 +1,5 @@
-#include "main.c"
+#include "main.h"
+#include <stdio.h>
 /**
  * _abs - computes absolute value of an intger
  * Return: always ture
