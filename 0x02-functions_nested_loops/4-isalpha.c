@@ -3,7 +3,7 @@
 /**
  * _isalpha - functons that checks for alphabetic character
  * @c: charater c 
- * Retun: Always 0;
+ * Return: Always 0;
  */
 
 int _isalpha(int c)
