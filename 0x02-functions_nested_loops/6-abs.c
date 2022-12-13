@@ -1,23 +1,19 @@
 #include "main.h"
-#include <stdio.h>
 /**
  * _abs - computes absolute value of an intger
- * Return: always ture
+ * Return: absolute value
+ * @a: int type
  *
  */
 
-int _abs(int)
+int _abs(int a)
 {
-	int a;
-
 	if (a < 0)
 	{
-		a =  a(-1);
-		printf("%d\n ", a);
+	       return a(-1);
 	}
 	else
 	{
-		printf("%d\n", a);
+		return (a);
 	}
-	return (0);
 }
