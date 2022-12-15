@@ -1,17 +1,14 @@
 #include "main.h"
 /**
- * void print_numbers - functions prints a numbers from 0 -9 followed by new line
- * Retun: numbers from 0 to 9 
- * */
-
+*print_numbers- a function that prints the numbers, from 0 to 9
+*
+*Return: print to stdout the alphabet, in lowercase, followed by a new line.
+**/
 void print_numbers(void)
 {
-	int num = 0;
+	int i;
 
-	while (num >= '9')
-	{
-		putchar(num);
-		num++;
-	}
-	putchar('\n');
+	for (i = 0; i <= 9; i++)
+		_putchar(i + '0');
+	_putchar('\n');
 }
