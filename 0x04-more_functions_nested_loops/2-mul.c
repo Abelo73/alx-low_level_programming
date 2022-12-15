@@ -1,4 +1,5 @@
 #include "main.h"
+
 /**
  *
  * mul - functions multifly two intigers
@@ -7,7 +8,8 @@
  * Return: multiplications of two intgers
  * 
  * */
+
 int mul(int a, int b)
 {
-	return (a * )b;
+	return (a * b);
 }
